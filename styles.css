@@ -24,10 +24,11 @@ header {
    text-shadow: 4px 4px 4px #aaa;
 }
 
-h3{
+h3,h4,h6{
    color:  greenyellow;
    display: inline;
    text-transform: capitalize;
+   text-decoration: none;
 }
 h1,h2{
    color:rgb(82, 252, 82);
@@ -35,20 +36,15 @@ h1,h2{
    text-transform: capitalize;
    text-shadow: 2em;
 }
-.nav_bar{
+#nav_bar{
    justify-content: space-around;
    display: flex;
    width: 35%;
 }
-a{
-   color: rgb(255, 255, 255);
-   text-decoration: wavy;
-   margin-right: 30px ;
-}
-.nav_bar a{
+#nav_bar a{
    color:   rgba(133, 196, 255, 0.959);
    text-decoration: none;
-   letter-spacing: 3px;
+   letter-spacing: 0px;
    font-weight: bold;
    text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
@@ -65,3 +61,25 @@ p{
    position: relative;
    animation-timing-function: linear;
 }*/
+div.GameGallery{
+   margin: 5px;
+   border: 1px solid #ccc;
+   float: left;
+   display: inline;
+}
+div.GameGallery:hover{
+   box-shadow: 0 0 2px 1px rgb(255, 255, 255);
+}
+div.gallery img {
+   width: 25%;
+   height: 25%;
+ }
+div.desc {
+   padding: 15px;
+   /*text-align: center;*/
+}
+.Names {
+   text-align: center;
+   text-shadow: #aaa;
+   text-size-adjust: 150px;
+}
